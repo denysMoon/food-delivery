@@ -1,0 +1,17 @@
+.phones{
+  //width: 548px;
+  height: 640px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.phone__right{
+
+}
+.phone__left{
+
+}
+.phone__left, .phone__right{
+  position: absolute;
+}

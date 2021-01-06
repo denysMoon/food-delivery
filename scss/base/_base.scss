@@ -1,0 +1,24 @@
+html{
+}
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-size: 40px;
+    color: black;
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 1210px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.button{
+    width: 236px;
+    height: 68px;
+    border-radius: 9px;
+    font-family: 'Conv_Montserrat-Bold';
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}

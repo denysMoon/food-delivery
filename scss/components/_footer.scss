@@ -1,0 +1,33 @@
+footer{
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__box{
+  width: 1210px;
+  height: 133px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: $screen-md){
+  .footer__box{
+    max-width: 800px;
+  }
+}
+.footer__box_icon{
+  max-width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.footer__box_icon>a{
+  padding: 10px;
+}
+
+.sing{
+  font-family: 'Conv_Montserrat-Bold';
+  font-size: 12px;
+}
